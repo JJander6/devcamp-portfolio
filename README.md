@@ -6,13 +6,13 @@
  
 -Real time chat engine for comments
 -Blog 
--Portfolioo
+-Portfolio
 -Drag and droop interface 
    
 ### Code Example
 
 ```ruby
-def my_great_methood
+def my_great_method
    puts "here it is"   
    end  
 ```
