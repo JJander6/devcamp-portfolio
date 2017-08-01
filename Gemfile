@@ -4,24 +4,18 @@ git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
 end
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.3'
-# Use postgresql as the database for Active Record
-gem 'pg', '~> 0.18'
 
+gem 'rails', '~> 5.0.3'
+gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-
-# Use jquery as the JavaScript library
 gem 'jquery-rails'
-
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
-
   gem 'byebug', platform: :mri
   gem 'pry-byebug'
 end
@@ -36,9 +30,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3' 
-
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
-
 gem 'anderson_jessie_view_tool', '~> 0.1.0'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
@@ -50,3 +42,4 @@ gem 'carrierwave-aws', '~> 1.2'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.10'
 gem 'gritter', '~> 1.2'
+gem 'twitter', '~> 6.1'
